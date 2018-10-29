@@ -6,7 +6,7 @@ RUN npm install -g pm2 node-gyp
 # 7zip for Patch
 RUN apk add --no-cache --update p7zip
 # Python for SNMP
-RUN apk add --no-cache --update python
+# RUN apk add --no-cache --update python
 
 ENV NODE_ENV production
 
